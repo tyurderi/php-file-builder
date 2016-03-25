@@ -1,0 +1,17 @@
+{
+    "name": "tyurderi/php-file-builder",
+    "description": "A small helper class to generate files.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tyurd",
+            "email": "tyurderi@yahoo.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WCKZ\\Generator\\": "src/"
+        }
+    }
+}
