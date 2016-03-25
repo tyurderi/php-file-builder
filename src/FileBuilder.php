@@ -29,9 +29,14 @@ class FileBuilder
         return $this;
     }
 
-    public function newLine()
+    public function newLine($lineCount = 1)
     {
-        $this->add(PHP_EOL);
+        for($i = 0; $i < $lineCount; $i++)
+        {
+            $this->add(PHP_EOL);
+        }
+
+        return $this;
     }
 
 }
